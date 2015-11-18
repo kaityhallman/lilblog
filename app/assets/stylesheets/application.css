@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .jumbotron {
+ 	background-image: url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?dpr=2&fit=crop&fm=jpg&h=1000&ixjsv=2.0.0&ixlib=rb-0.3.5&q=50&w=1700);
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ }
+
+.jumbotron h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.jumbotron p {
+	font-size: 16px;
+}
+
+.cant-see-me {
+	display: none;
+}
+
+.navbar-inverse {
+	background-color: #03c9a9;
+	border-color: #03c9a9;
+}
+
+body {
+	background-color: #1bbc9b;
+	padding-top: 50px;
+}
+
+a {
+	color: #03c9a9;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1bbc9b;
+}
+
+.panel-body a: hover {
+	color: #1bbc9b;
+	text-decoration: none;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-brand a:hover {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+.panel-info>.panel-heading {
+    color: #fff;
+    background-color: #03c9a9;
+    border-color: #03c9a9;
+}
+
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color: #03c9a9;
+    border-color: #03c9a9;
+}
+
+.panel-warning>.panel-heading {
+    color: #fff;
+    background-color: #03c9a9;
+    border-color: #03c9a9;
+}
+
+
+.btn {
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+.btn:hover {
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
